@@ -2,7 +2,7 @@ import sys
 import os
 
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), os.pardir, 'textrank'))
-import textcleaner  # Uses textrank's method for extracting sentences.
+import summa.preprocessing.textcleaner  # Uses textrank's method for extracting sentences.
 
 BASELINE_WORD_COUNT = 100
 

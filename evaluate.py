@@ -8,7 +8,7 @@ from baseline import baseline
 
 # Imports files from a parent directory.
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), os.pardir, 'textrank'))
-from textrank import textrank
+from summa.summarizer import summarize as textrank
 
 
 parser = argparse.ArgumentParser()
