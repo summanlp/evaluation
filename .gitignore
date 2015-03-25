@@ -111,3 +111,6 @@ nytprof.out
 /temp
 /results
 
+# Results created for Jenkins.
+/results_duc2002
+/results_summa
